@@ -2,7 +2,7 @@
 
 > Auto-synced from LeetCode using [LeetCode-to-GitHub Sync](https://github.com) Chrome Extension.
 
-**Total Solved**: 3
+**Total Solved**: 4
 
 ---
 
@@ -66,5 +66,26 @@ This solution uses a two-pointer technique approach to solve the "1423. Maximum 
 
 - **Time**: `O(n)`
 - **Space**: `O(1)`
+
+---
+
+## 42. Trapping Rain Water
+
+- **Difficulty**: Hard
+- **Topic**: array
+- **Tags**: `#array` `#two-pointers` `#dynamic-programming` `#stack` `#monotonic-stack`
+- **Link**: [LeetCode](https://leetcode.com/problems/trapping-rain-water/)
+- **Date Solved**: April 7, 2026
+
+### Approach
+
+**Dynamic Programming with optimal substructure and overlapping subproblems**
+
+This solution uses a dynamic programming with optimal substructure and overlapping subproblems approach to solve the "42. Trapping Rain Water" problem. The problem falls under the array, two-pointers, dynamic-programming, stack, monotonic-stack category. We identify optimal substructure and overlapping subproblems, building the solution bottom-up (or top-down with memoization) to avoid redundant computation.
+
+### Complexity
+
+- **Time**: `O(n * m)`
+- **Space**: `O(n * m)`
 
 ---
