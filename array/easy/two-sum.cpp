@@ -13,6 +13,6 @@ public:
             mp[nums[i]] = i;
         }
         
-        return {}; // in case no solution exists
+        return {}; // if no solution exists
     }
 };
