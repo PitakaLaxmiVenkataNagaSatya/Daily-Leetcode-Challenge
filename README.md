@@ -2,7 +2,7 @@
 
 > Auto-synced from LeetCode using [LeetCode-to-GitHub Sync](https://github.com) Chrome Extension.
 
-**Total Solved**: 4
+**Total Solved**: 5
 
 ---
 
@@ -82,6 +82,27 @@ This solution uses a two-pointer technique approach to solve the "1423. Maximum 
 **Dynamic Programming with optimal substructure and overlapping subproblems**
 
 This solution uses a dynamic programming with optimal substructure and overlapping subproblems approach to solve the "42. Trapping Rain Water" problem. The problem falls under the array, two-pointers, dynamic-programming, stack, monotonic-stack category. We identify optimal substructure and overlapping subproblems, building the solution bottom-up (or top-down with memoization) to avoid redundant computation.
+
+### Complexity
+
+- **Time**: `O(n * m)`
+- **Space**: `O(n * m)`
+
+---
+
+## 5. Longest Palindromic Substring
+
+- **Difficulty**: Medium
+- **Topic**: two-pointers
+- **Tags**: `#two-pointers` `#string` `#dynamic-programming`
+- **Link**: [LeetCode](https://leetcode.com/problems/longest-palindromic-substring/)
+- **Date Solved**: April 7, 2026
+
+### Approach
+
+**Dynamic Programming with optimal substructure and overlapping subproblems**
+
+This solution uses a dynamic programming with optimal substructure and overlapping subproblems approach to solve the "5. Longest Palindromic Substring" problem. The problem falls under the two-pointers, string, dynamic-programming category. We identify optimal substructure and overlapping subproblems, building the solution bottom-up (or top-down with memoization) to avoid redundant computation.
 
 ### Complexity
 
