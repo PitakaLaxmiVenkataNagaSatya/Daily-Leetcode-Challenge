@@ -2,7 +2,7 @@
 
 > Auto-synced from LeetCode using [LeetCode-to-GitHub Sync](https://github.com) Chrome Extension.
 
-**Total Solved**: 2
+**Total Solved**: 3
 
 ---
 
@@ -40,6 +40,27 @@ This solution uses a hash map for o(1) lookups approach to solve the "1. Two Sum
 **Bit manipulation**
 
 This solution uses a bit manipulation approach to solve the "76. Minimum Window Substring" problem. The problem falls under the hash-table, string, sliding-window category. Bit manipulation provides constant-space operations on binary representations, enabling efficient set operations and arithmetic tricks.
+
+### Complexity
+
+- **Time**: `O(n)`
+- **Space**: `O(1)`
+
+---
+
+## 1423. Maximum Points You Can Obtain from Cards
+
+- **Difficulty**: Medium
+- **Topic**: array
+- **Tags**: `#array` `#sliding-window` `#prefix-sum`
+- **Link**: [LeetCode](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)
+- **Date Solved**: April 7, 2026
+
+### Approach
+
+**Two-pointer technique**
+
+This solution uses a two-pointer technique approach to solve the "1423. Maximum Points You Can Obtain from Cards" problem. The problem falls under the array, sliding-window, prefix-sum category. By maintaining two pointers that traverse the data structure, we reduce the need for nested iteration and achieve an optimal time complexity.
 
 ### Complexity
 
