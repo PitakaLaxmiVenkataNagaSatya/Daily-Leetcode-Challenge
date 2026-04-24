@@ -12,7 +12,7 @@ public:
             if (lastSeen.count(c) && lastSeen[c] >= j) {
                 j = lastSeen[c] + 1;  // move start just after its last occurrence
             }
-            lastSeen[c] = i; // update last seen index
+            lastSeen[c] = i; // update last seen index , just testing
             maxLen = max(maxLen, i - j + 1);
         }
 
