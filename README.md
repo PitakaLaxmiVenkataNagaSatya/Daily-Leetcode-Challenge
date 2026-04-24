@@ -1,14 +1,15 @@
 # LeetCode Solutions
 
-Auto-synced from LeetCode using the LeetCode-to-GitHub Sync Chrome extension.
+Auto-synced from LeetCode using the Coding Platform Sync browser extension.
 
-
+Profile: [harini_7125](https://leetcode.com/u/harini_7125/)
 
 ## Stats
 
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 1 |
-| Medium     | 2 |
+| Medium     | 3 |
 | Hard       | 2 |
-| **Total**  | **5** |
+| Unknown    | 0 |
+| **Total**  | **6** |
