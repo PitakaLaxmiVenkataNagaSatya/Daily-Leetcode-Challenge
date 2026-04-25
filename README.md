@@ -9,7 +9,7 @@ Profile: [harini_7125](https://leetcode.com/u/harini_7125/)
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 3 |
-| Medium     | 4 |
+| Medium     | 5 |
 | Hard       | 2 |
 | Unknown    | 0 |
-| **Total**  | **9** |
+| **Total**  | **10** |
