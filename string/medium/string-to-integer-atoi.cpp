@@ -20,7 +20,7 @@ public:
         result = result * 10 + digit;
         i++;
       }
-      return sign*result;
+      return sign*result; //testing
 
     }
 };
