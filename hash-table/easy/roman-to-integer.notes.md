@@ -1,21 +1,21 @@
 # Roman to Integer
 
 - Platform: LeetCode
-- Problem URL: https://leetcode.com/problems/roman-to-integer/description/
+- Problem URL: https://leetcode.com/problems/roman-to-integer/
 - Difficulty: easy
 - Primary topic: hash-table
 - Topics: hash-table, math, string
-- Language: text
+- Language: cpp
 - Detected username: harini_7125
 
 ## Understanding
 
-- Algorithm: Iterative solution
-- Pattern: hash-table
+- Algorithm: Hash map
+- Pattern: hashing
 - Time complexity: O(n)
-- Space complexity: O(1)
-- Confidence: 35%
+- Space complexity: O(n)
+- Confidence: 80%
 
 ## Approach
 
-Traverses the input directly with a straightforward loop-based solution. It aligns with hash-table, math, string topics.
+Uses constant-time lookups to remember previously seen values or frequencies. It aligns with hash-table, math, string topics.
