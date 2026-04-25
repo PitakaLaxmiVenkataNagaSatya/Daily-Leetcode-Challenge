@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Auto-synced from LeetCode using the Coding Platform Sync browser extension.
+Auto-synced from LeetCode using CodeSync.
 
 Profile: [harini_7125](https://leetcode.com/u/harini_7125/)
 
@@ -9,7 +9,6 @@ Profile: [harini_7125](https://leetcode.com/u/harini_7125/)
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 3 |
-| Medium     | 5 |
+| Medium     | 6 |
 | Hard       | 2 |
-| Unknown    | 0 |
-| **Total**  | **10** |
+| **Total**  | **11** |
