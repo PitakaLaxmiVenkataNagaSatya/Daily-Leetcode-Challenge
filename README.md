@@ -9,6 +9,6 @@ Profile: [rayidi1](https://leetcode.com/u/rayidi1/)
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 9 |
-| Medium     | 10 |
+| Medium     | 11 |
 | Hard       | 2 |
-| **Total**  | **21** |
+| **Total**  | **22** |
