@@ -2,7 +2,7 @@
 
 Auto-synced from LeetCode using CodeSync.
 
-Profile: [harini_7125](https://leetcode.com/u/harini_7125/)
+Profile: [rayidi1](https://leetcode.com/u/rayidi1/)
 
 ## Stats
 
