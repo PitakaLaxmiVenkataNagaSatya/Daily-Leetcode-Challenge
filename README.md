@@ -2,13 +2,13 @@
 
 Auto-synced from LeetCode using CodeSync.
 
-Profile: [rayidi1](https://leetcode.com/u/rayidi1/)
+Profile: [harini_7125](https://leetcode.com/u/harini_7125/)
 
 ## Stats
 
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 9 |
-| Medium     | 11 |
+| Medium     | 12 |
 | Hard       | 2 |
-| **Total**  | **22** |
+| **Total**  | **23** |
