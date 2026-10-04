@@ -8,11 +8,14 @@ public:
             allSubsets.push_back(list);
             return;
         }
+        //include
         list.push_back(nums[idx]);
         backtrack(nums, idx+1, n);
+        //backtrack
         list.pop_back();
         idx++;
         while(idx<n && nums[idx]==nums[idx - 1]) idx++;
+        //exclude
         backtrack(nums, idx, n);
         return;
     }
