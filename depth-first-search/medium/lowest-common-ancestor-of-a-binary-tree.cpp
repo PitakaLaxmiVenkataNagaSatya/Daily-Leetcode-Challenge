@@ -16,5 +16,7 @@ public:
         if(leftLCA && rightLCA) return root;
         else if(leftLCA!=NULL) return leftLCA;
         else return rightLCA;
+        //TC -> O(n)
+        //SC -> O(n)
     }
 };
