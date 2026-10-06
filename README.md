@@ -9,6 +9,6 @@ Profile: [harini_7125](https://leetcode.com/u/harini_7125/)
 | Difficulty | Solved |
 |------------|--------|
 | Easy       | 11 |
-| Medium     | 18 |
+| Medium     | 19 |
 | Hard       | 2 |
-| **Total**  | **31** |
+| **Total**  | **32** |
