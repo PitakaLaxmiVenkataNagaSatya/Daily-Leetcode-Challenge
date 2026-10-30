@@ -1,15 +1,15 @@
 class Solution {
 public:
     int mySqrt(int x) {
-        int l=0;
+        int l=1;
         int h=x/2;
         long long mid;
         int possibleRoot = 0;
-        if(x==1) return 1;
+        if(x<2) return x;
         while(l<=h){
             mid=l+(h-l)/2;
-            if(mid*mid==x) return mid;
-            else if(mid*mid<x){
+            if(mid==x/mid) return mid;
+            else if(mid<x/mid){
                 possibleRoot=mid;
                 l=mid+1;
             }
