@@ -1,12 +1,12 @@
 class Solution {
 public:
-    int ceilSum(vector<int>& arr, int x){
+    bool isValid(vector<int>& arr, int x, int threshold){
         int sum=0;
         for(int i=0; i<arr.size(); i++){
-            if(arr[i]%x!=0) sum += arr[i]/x + 1;
-            else sum += arr[i]/x;
+            sum += arr[i]/x;
+            if(arr[i]%x!=0) sum ++;
         }        
-        return sum;
+        return sum<=threshold;
     }
     int smallestDivisor(vector<int>& nums, int threshold) {
         int s=1;
@@ -14,10 +14,11 @@ public:
         int mid;
         while(s<e){
             mid=s+(e-s)/2;
-            int sum=ceilSum(nums, mid);
-            if(sum<=threshold) e=mid;
+            if(isValid(nums, mid, threshold)) e=mid;
             else s=mid+1;
         }
         return s;
     }
 };
+
+//TC->O(N*logM) , SC->O(1)   {M is maximum element, so bs for 1 to M is logM and each has n iterations}
