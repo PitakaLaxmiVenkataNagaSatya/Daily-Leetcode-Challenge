@@ -8,7 +8,15 @@ public:
             if(arr[mid]-(mid+1)<k) l=mid+1;
             else h=mid-1;
         }
-        return l+k;
+        return l+k; 
+
+        /*
+        arr[h] + more
+        arr[h] + (k - (arr[h] -(h-1))
+        arr[h] + k - arr[h] + h + 1
+        h + 1 + k    {wherer h + 1 is simply l}
+        l + k
+        */
     }
 };
 
