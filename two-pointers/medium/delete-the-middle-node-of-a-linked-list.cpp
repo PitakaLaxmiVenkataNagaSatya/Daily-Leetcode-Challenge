@@ -24,3 +24,5 @@ public:
         return head;
     }
 };
+
+//TC -> O(N) , SC -> O(1)
