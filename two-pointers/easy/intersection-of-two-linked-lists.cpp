@@ -8,23 +8,40 @@
  */
 class Solution {
 public:
-
-    bool isIntersection(ListNode* headA, ListNode* node){
-        while(headA!=nullptr){
-            if(headA==node) return true;
-            headA = headA->next;
+    int findLength(ListNode* head){
+        int size=0;
+        while(head!=nullptr){
+            size++;
+            head=head->next;
         }
-        return false;
+        return size;
     }
 
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
         if(headA==nullptr || headB==nullptr) return nullptr;
-        while(headB!=nullptr){
-            if(isIntersection(headA, headB)) return headB;
-            headB = headB->next;
+        int sizeA = findLength(headA);
+        int sizeB = findLength(headB);
+        if(sizeA > sizeB){
+            int diff=sizeA-sizeB;
+            while(diff!=0){
+                headA=headA->next;
+                diff--;
+            }
+        }
+        if(sizeA < sizeB){
+            int diff=sizeB-sizeA;
+            while(diff!=0){
+                headB=headB->next;
+                diff--;
+            }
+        }
+        while(headA!=nullptr && headB!=nullptr){
+            if(headA==headB) return headA;
+            headA=headA->next;
+            headB=headB->next;
         }
         return nullptr;
     }
 };
 
-//TC -> O(m*n) , SC -> O(1)
+//TC -> O(n+m) , SC -> O(1)
